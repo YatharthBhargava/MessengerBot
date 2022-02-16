@@ -1,0 +1,36 @@
+{
+  "name": "messengerbot",
+  "version": "1.0.0",
+  "description": "messenger bot with nodejs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YatharthBhargava/MessengerBot.git"
+  },
+  "keywords": [
+    "messenger",
+    "bot",
+    "with",
+    "nodejs"
+  ],
+  "author": "Yatharth Bhargava",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YatharthBhargava/MessengerBot/issues"
+  },
+  "homepage": "https://github.com/YatharthBhargava/MessengerBot#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.6",
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "nodemon": "^2.0.15"
+  }
+}
